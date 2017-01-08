@@ -9,7 +9,7 @@ StockTracker a web scraper that programmatically reflects the S&P 500's quote fr
 
 
 ### Implementation Details
-Each second, the app makes an AJAX GET request to CNN Money and pulls the current price. It checks that price against the last price in the table and append a row to the table if the price changed.
+Each second, the app makes an AJAX GET request to CNN Money and pulls the current price. It checks that price against the last price in the table and appends a row to the table if the price changed.
 
 
 ```javascript
