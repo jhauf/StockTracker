@@ -1,9 +1,11 @@
-#StockTracker
+##StockTracker
 
-#### StockTracker a web scraper that programmatically reflects the S&P 500's quote from CNN using JavaScript and jQuery. Since the original data is pulled through a websocket connection, there was no API available for HTTP requests. In addition, due to the same origin policy, I had to use a work around to make a cross-domain request. The Yahoo! Query Language (YQL) allows you to load any HTML document and get it back in JSON so I ended up using [James Padolsey's jQuery Plugin](https://github.com/padolsey-archive/jquery.fn/tree/master/cross-domain-ajax) which leverages YQL to make cross-domain requests.
+### Background
+StockTracker a web scraper that programmatically reflects the S&P 500's quote from CNN using JavaScript and jQuery. Since the original data is pulled through a websocket connection, there was no API available for HTTP requests. In addition, due to the same origin policy, I had to use a work around to make a cross-domain request. The Yahoo! Query Language (YQL) allows you to load any HTML document and get it back in JSON so I ended up using [James Padolsey's jQuery Plugin](https://github.com/padolsey-archive/jquery.fn/tree/master/cross-domain-ajax) which leverages YQL to make cross-domain requests.
 
 
-####Each second, the app makes an AJAX GET request to CNN Money and pulls the current price. It checks that price against the last price in the table and append a row to the table if the price changed.
+### Implementation Details
+Each second, the app makes an AJAX GET request to CNN Money and pulls the current price. It checks that price against the last price in the table and append a row to the table if the price changed.
 
 
 ```javascript
