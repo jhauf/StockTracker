@@ -1,0 +1,40 @@
+li {
+  list-style: none;
+  font-size: 20px;
+  display: flex;
+  border: 1px solid black;
+  padding: 10px;
+  font-family: helvetica;
+  color: black;
+}
+
+li:nth-child(1) {
+  background-color: #a53d3d;
+  color: white;
+}
+
+html {
+  text-align: center;
+  background-color: #4178ad;
+  font-family: helvetica;
+  color: white;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+#container {
+  display: flex;
+  flex-direction: row;
+  border: none;
+  justify-content: center;
+
+}
+
+span {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  font-family: helvetica;
+}
