@@ -1,6 +1,6 @@
 #StockTracker
 
-##This is a web scraper that tracks changes to the S&P 500's price from CNN using JavaScript and jQuery. Each second, it makes an AJAX GET request to CNN Money and pulls the current price. It checks that price against the last price in the table and updates the table if the price changed.
+#### StockTracker a web scraper that tracks changes to the S&P 500's price from CNN using JavaScript and jQuery. Each second, it makes an AJAX GET request to CNN Money and pulls the current price. It checks that price against the last price in the table and updates the table if the price changed.
 
 
 ```javascript
