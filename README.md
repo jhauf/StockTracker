@@ -1,5 +1,6 @@
 ##StockTracker
 
+![live](https://jhauf.github.io/StockTracker/)
 ![screenshot](stocktracker.png)
 
 
